@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Caffetteria 3D - Lonate Pozzolo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Benvenuti al Bar Caffetteria</h1>
+        <p>Un'esperienza immersiva nel nostro bar virtuale 3D.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reviews">Recensioni</a></li>
+            <li><a href="#contact">Contatto</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Esplora il nostro bar in 3D! Usa il mouse per ruotare la vista e scoprire i dettagli.</p>
+        <div id="3d-scene"></div>
+        <img src="https://via.placeholder.com/600x400?text=Bar+Interno" alt="Interno del bar" class="hero-image">
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <h3>Caffetteria</h3>
+        <ul>
+            <li>Caffè - 1,20 EUR <img src="https://via.placeholder.com/100?text=Caffe" alt="Caffè"></li>
+            <li>Cappuccino - 1,80 EUR <img src="https://via.placeholder.com/100?text=Cappuccino" alt="Cappuccino"></li>
+            <li>Latte Macchiato - 2,30 EUR <img src="https://via.placeholder.com/100?text=Latte+Macchiato" alt="Latte Macchiato"></li>
+            <li>Latte Bianco - 1,50 EUR <img src="https://via.placeholder.com/100?text=Latte+Bianco" alt="Latte Bianco"></li>
+            <li>Spremuta - 3,50 EUR <img src="https://via.placeholder.com/100?text=Spremuta" alt="Spremuta"></li>
+            <li>Brioches - 1,40 EUR <img src="https://via.placeholder.com/100?text=Brioches" alt="Brioches"></li>
+            <li>Orzo - 1,50 EUR <img src="https://via.placeholder.com/100?text=Orzo" alt="Orzo"></li>
+            <li>Caffè Corretto - 1,70 EUR <img src="https://via.placeholder.com/100?text=Caffe+Corretto" alt="Caffè Corretto"></li>
+            <li>Bicchiere Acqua - 0,30 EUR <img src="https://via.placeholder.com/100?text=Acqua" alt="Acqua"></li>
+        </ul>
+        <h3>Bevande Analcoliche</h3>
+        <ul>
+            <li>Acqua Frizzante 0,5L - 1,20 EUR <img src="https://via.placeholder.com/100?text=Acqua+Frizzante" alt="Acqua Frizzante"></li>
+            <li>Succo di Frutta - 2,50 EUR <img src="https://via.placeholder.com/100?text=Succo" alt="Succo"></li>
+            <li>Bibita Lattina - 2,50 EUR <img src="https://via.placeholder.com/100?text=Bibita" alt="Bibita"></li>
+        </ul>
+        <h3>Cocktails</h3>
+        <ul>
+            <li>Campari - 5,50 EUR <img src="https://via.placeholder.com/100?text=Campari" alt="Campari"></li>
+            <li>Hugo - 5,50 EUR <img src="https://via.placeholder.com/100?text=Hugo" alt="Hugo"></li>
+            <li>Americano - 5,50 EUR <img src="https://via.placeholder.com/100?text=Americano" alt="Americano"></li>
+            <li>Cuba Libre - 6 EUR <img src="https://via.placeholder.com/100?text=Cuba+Libre" alt="Cuba Libre"></li>
+            <li>Tonic - 6 EUR <img src="https://via.placeholder.com/100?text=Tonic" alt="Tonic"></li>
+            <li>Vodka Lemon/Redbull - 6 EUR <img src="https://via.placeholder.com/100?text=Vodka" alt="Vodka"></li>
+        </ul>
+    </section>
+
+    <section id="reviews">
+        <h2>Recensioni</h2>
+        <div class="review">
+            <p>"Ottimo caffè e atmosfera accogliente!"</p>
+            <div class="stars">★★★★★</div>
+            <p>- Mario Rossi</p>
+        </div>
+        <div class="review">
+            <p>"I cocktails sono fantastici, ma il servizio potrebbe migliorare."</p>
+            <div class="stars">★★★☆☆</div>
+            <p>- Lucia Bianchi</p>
+        </div>
+        <div class="review">
+            <p>"Prezzi ragionevoli e brioches deliziose."</p>
+            <div class="stars">★★★★☆</div>
+            <p>- Giovanni Verdi</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contatto</h2>
+        <p>Indirizzo: Viale Ticino, 102, Lonate Pozzolo VA</p>
+        <p>Telefono: +39 123 456 7890</p>
+        <p>Email: info@barcaffetteria.it</p>
+        <img src="https://via.placeholder.com/400x300?text=Mappa+Bar" alt="Mappa del bar">
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Bar Caffetteria. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
